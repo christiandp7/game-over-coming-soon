@@ -1,0 +1,52 @@
+.container {
+	@apply absolute w-full top-0 left-0;
+	z-index: -1;
+}
+.row {
+	display: flex;
+	/* background: #; */
+	@apply bg-gray-400;
+}
+.row:first-child .brick {
+	margin-top: 4px;
+}
+.row:last-child .brick {
+	margin-bottom: 4px;
+}
+.row:nth-child(even) .brick:first-child {
+	display: none;
+}
+.row:nth-child(even) .brick:last-child {
+	margin-right: 2px;
+}
+.row:nth-child(even)::before,
+.row:nth-child(even)::after {
+	position: relative;
+	content: '';
+	background: #d00;
+	width: calc(7.5%);
+	height: 3vw;
+	border-radius: 2px;
+	margin: 2px;
+	box-shadow: 0 0 19px 1px #9d0000 inset;
+}
+.row:nth-child(even)::before {
+	margin-left: 4px;
+}
+.row:nth-child(even)::after {
+	margin-right: 4px;
+}
+.brick {
+	background: #d00;
+	width: 15%;
+	height: 3vw;
+	border-radius: 2px;
+	margin: 2px;
+	box-shadow: 0 0 19px 1px #9d0000 inset;
+}
+.brick:last-child {
+	margin-right: 4px;
+}
+.brick:first-child {
+	margin-left: 4px;
+}

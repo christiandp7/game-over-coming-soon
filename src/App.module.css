@@ -1,0 +1,45 @@
+.main {
+	@apply relative;
+	@apply w-full h-screen overflow-hidden;
+}
+
+.content {
+	@apply w-full h-full;
+	@apply flex justify-center items-center;
+	z-index: 1;
+}
+
+.hero {
+	@apply w-full max-w-5xl px-3 mb-14;
+}
+.logoContainer {
+	@apply w-full;
+	@apply flex justify-center items-center;
+}
+.logo {
+	@apply max-w-xs;
+}
+
+.social {
+	@apply flex justify-center items-center;
+	@apply w-full mt-8;
+}
+.socialItem {
+	&:not(:first-child) {
+		@apply ml-7;
+	}
+}
+.socialButton {
+	@apply block w-14 h-14 rounded-full;
+	@apply flex justify-center items-center;
+	@apply text-white text-3xl;
+	@apply border-2 border-solid;
+	@apply transition-colors duration-200 ease-in-out;
+	@apply shadow-2xl;
+}
+.fb {
+	@apply bg-fb border-fb-accent hover:bg-fb-accent;
+}
+.wapp {
+	@apply bg-wapp border-wapp-accent hover:bg-wapp-accent;
+}
