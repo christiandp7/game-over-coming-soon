@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Wall.module.css'
 
-const ROWS = [...Array(18)]
+const ROWS = [...Array(60)]
 const CELLS = [...Array(10)]
 
 const Wall = () => {

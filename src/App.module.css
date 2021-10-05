@@ -5,23 +5,27 @@
 
 .content {
 	@apply w-full h-full;
-	@apply flex justify-center items-center;
+	@apply flex justify-center items-center lg:items-start;
 	z-index: 1;
 }
 
 .hero {
-	@apply w-full max-w-5xl px-3 mb-14;
+	@apply w-full max-w-5xl px-3 pt-6 mb-12 lg:mb-0;
 }
 .logoContainer {
 	@apply w-full;
 	@apply flex justify-center items-center;
 }
 .logo {
-	@apply max-w-xs;
+	@apply max-w-[220px] xl:max-w-[260px] 2xl:max-w-[300px];
+}
+
+.comingSoonWrapper {
+	@apply max-w-xs sm:max-w-md md:max-w-lg lg:max-w-3xl xl:max-w-4xl mx-auto;
 }
 
 .social {
-	@apply flex justify-center items-center;
+	@apply flex lg:hidden justify-center items-center;
 	@apply w-full mt-8;
 }
 .socialItem {

@@ -3,14 +3,12 @@ import cn from 'classnames'
 import s from './App.module.css'
 import Wall from '@components/Wall'
 import { ComingSoonText } from '@components/svg'
+import XboxController from '@components/XboxController'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
+import { whatsAppLink } from '@utils/whatsappLink'
 // assets
 import logo from '@images/logo-face.png'
-
-const WAPP_NUMBER = '59178411177'
-const WAPP_TEXT = 'Hola! quiero comprar muchos juegos 🎮'
-const WAPP_LINK = `https://wa.me/${WAPP_NUMBER}?text=${encodeURI(WAPP_TEXT)}`
 
 function App() {
 	return (
@@ -37,11 +35,12 @@ function App() {
 							<a
 								className={cn(s.socialButton, s.wapp)}
 								target="_blank"
-								href={WAPP_LINK}>
+								href={whatsAppLink()}>
 								<FaWhatsapp />
 							</a>
 						</li>
 					</ul>
+					<XboxController />
 				</div>
 			</div>
 		</main>

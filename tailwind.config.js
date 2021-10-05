@@ -4,7 +4,7 @@ module.exports = {
 		applyComplexClasses: true,
 	},
 	purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx}'],
-	jit: 'true',
+	mode: 'jit',
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
@@ -13,6 +13,16 @@ module.exports = {
 				'fb-accent': '#4267B2',
 				wapp: '#25D366',
 				'wapp-accent': '#128C7E',
+				'go-orange': '#FF830A',
+			},
+			screen: {
+				screens: {
+					sm: '640px',
+					md: '768px',
+					lg: '1024px',
+					xl: '1280px',
+					'2xl': '1536px',
+				},
 			},
 		},
 	},
