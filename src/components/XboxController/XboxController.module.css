@@ -326,8 +326,8 @@
 	cursor: default;
 	background: radial-gradient(
 				93% 98% at 100% 20%,
-				rgba(247, 247, 247, 0.3) 50%,
-				rgba(255, 131, 10, 0) 52%
+				rgba(247, 247, 247, 0.3) 40%,
+				rgba(255, 131, 10, 0) 42%
 			)
 			110% 125% / 100% 100%,
 		#333;
@@ -361,8 +361,8 @@
 	height: 4em;
 	background: radial-gradient(
 				93% 98% at 113% 20%,
-				rgba(247, 247, 247, 0.3) 50%,
-				rgba(255, 131, 10, 0) 52%
+				rgba(247, 247, 247, 0.3) 40%,
+				rgba(255, 131, 10, 0) 42%
 			)
 			130% 125% / 100% 100%,
 		#333;
@@ -396,8 +396,8 @@
 	border: 1px solid #333;
 	background: radial-gradient(
 				93% 98% at 100% 10%,
-				rgba(247, 247, 247, 0.3) 50%,
-				rgba(255, 131, 10, 0) 52%
+				rgba(247, 247, 247, 0.3) 40%,
+				rgba(255, 131, 10, 0) 42%
 			)
 			110% 125% / 100% 100%,
 		#333;
@@ -432,8 +432,8 @@
 	cursor: default;
 	background: radial-gradient(
 				93% 98% at 80% 20%,
-				rgba(247, 247, 247, 0.3) 50%,
-				rgba(255, 131, 10, 0) 52%
+				rgba(247, 247, 247, 0.3) 40%,
+				rgba(255, 131, 10, 0) 42%
 			)
 			110% 125% / 100% 100%,
 		#333;
@@ -458,7 +458,7 @@
 .buttons_letters .btn_b .b {
 	position: absolute;
 	font-size: 3em;
-	color: #e52a27;
+	color: #ff0000;
 }
 .buttons_joysticks {
 	z-index: 3;

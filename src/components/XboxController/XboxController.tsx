@@ -3,6 +3,8 @@ import s from './XboxController.module.css'
 import { SiXbox } from 'react-icons/si'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
+import { BiEnvelope } from 'react-icons/bi'
 import { whatsAppLink } from '@utils/whatsappLink'
 import GOShopLogo from '@components/svg/GOShopLogo'
 
@@ -44,7 +46,9 @@ const XboxController = () => {
 					<div className={s.buttons_letters}>
 						<div className={s.btn_y}>
 							<div className={s.shadow}></div>
-							<div className={s.y}>Y</div>
+							<a href="mailto:evercin.15@gmail.com" className={s.y}>
+								<BiEnvelope />
+							</a>
 						</div>
 						<div className={s.btn_x}>
 							<div className={s.shadow}></div>
@@ -63,7 +67,12 @@ const XboxController = () => {
 						</div>
 						<div className={s.btn_b}>
 							<div className={s.shadow}></div>
-							<div className={s.b}>B</div>
+							<a
+								target="_blank"
+								href="https://www.youtube.com/channel/UCcU27T_dt7JWy-uB7BO_fLQ"
+								className={s.b}>
+								<FaYoutube />
+							</a>
 						</div>
 					</div>
 					<div className={s.over_bottom}></div>
