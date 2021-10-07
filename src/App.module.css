@@ -34,9 +34,9 @@
 	}
 }
 .socialButton {
-	@apply block w-14 h-14 rounded-full;
+	@apply block w-12 h-12 rounded-full;
 	@apply flex justify-center items-center;
-	@apply text-white text-3xl;
+	@apply text-white text-2xl;
 	@apply border-2 border-solid;
 	@apply transition-colors duration-200 ease-in-out;
 	@apply shadow-xl;
