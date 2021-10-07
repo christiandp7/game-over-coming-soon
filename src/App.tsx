@@ -51,7 +51,7 @@ function App() {
 						</li>
 						<li className={s.socialItem}>
 							<a
-								href="mailto:evercin.15@gmail.com"
+								href="mailto:gustavoever11@gmail.com"
 								className={cn(s.socialButton, s.mail)}>
 								<BiEnvelope />
 							</a>

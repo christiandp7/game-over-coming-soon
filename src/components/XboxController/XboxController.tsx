@@ -46,7 +46,7 @@ const XboxController = () => {
 					<div className={s.buttons_letters}>
 						<div className={s.btn_y}>
 							<div className={s.shadow}></div>
-							<a href="mailto:evercin.15@gmail.com" className={s.y}>
+							<a href="mailto:gustavoever11@gmail.com" className={s.y}>
 								<BiEnvelope />
 							</a>
 						</div>
