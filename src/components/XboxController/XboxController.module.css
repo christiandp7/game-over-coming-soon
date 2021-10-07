@@ -30,7 +30,7 @@
 	}
 }
 .shopLogo {
-	@apply w-4/5 z-10 -mb-5;
+	@apply w-full z-10 -mb-5;
 }
 
 .controller {

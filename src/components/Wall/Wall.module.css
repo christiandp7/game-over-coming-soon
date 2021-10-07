@@ -25,10 +25,16 @@
 	content: '';
 	background: #d00;
 	width: calc(7.5%);
-	height: 3vw;
+	height: 5vw;
 	border-radius: 2px;
 	margin: 2px;
 	box-shadow: 0 0 19px 1px #9d0000 inset;
+	@screen lg {
+		height: 4vw;
+	}
+	@screen xl {
+		height: 3vw;
+	}
 }
 .row:nth-child(even)::before {
 	margin-left: 4px;
@@ -39,14 +45,29 @@
 .brick {
 	background: #d00;
 	width: 15%;
-	height: 3vw;
+	height: 5vw;
 	border-radius: 2px;
 	margin: 2px;
 	box-shadow: 0 0 19px 1px #9d0000 inset;
+	@screen lg {
+		height: 4vw;
+	}
+	@screen xl {
+		height: 3vw;
+	}
 }
 .brick:last-child {
 	margin-right: 4px;
 }
 .brick:first-child {
 	margin-left: 4px;
+}
+
+.brick:nth-child(4),
+.brick:nth-child(5),
+.brick:nth-child(6) {
+	@apply hidden;
+	@screen xl {
+		display: block;
+	}
 }
