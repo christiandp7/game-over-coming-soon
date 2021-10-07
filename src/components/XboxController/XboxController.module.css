@@ -29,6 +29,10 @@
 		transform: scale(0.45);
 	}
 }
+.shopLogo {
+	@apply w-4/5 z-10 -mb-5;
+}
+
 .controller {
 	width: 68em;
 	height: 45em;
@@ -278,6 +282,7 @@
 	background: #ff830a;
 	border-radius: 20px;
 	background-repeat: no-repeat;
+	@apply flex justify-center items-end z-10;
 }
 .bottom:after {
 	content: '';

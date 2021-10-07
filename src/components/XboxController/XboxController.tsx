@@ -4,6 +4,7 @@ import { SiXbox } from 'react-icons/si'
 import { FaFacebookF } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
 import { whatsAppLink } from '@utils/whatsappLink'
+import GOShopLogo from '@components/svg/GOShopLogo'
 
 const XboxController = () => {
 	return (
@@ -66,7 +67,11 @@ const XboxController = () => {
 						</div>
 					</div>
 					<div className={s.over_bottom}></div>
-					<div className={s.bottom}></div>
+					<div className={s.bottom}>
+						<div className={s.shopLogo}>
+							<GOShopLogo />
+						</div>
+					</div>
 					<div className={s.bottom_middle}></div>
 				</div>
 			</div>
