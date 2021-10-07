@@ -10,7 +10,7 @@
 }
 
 .hero {
-	@apply w-full max-w-5xl px-3 pt-5 2xl:pt-6 mb-12 lg:mb-0;
+	@apply w-full max-w-5xl px-3 pt-3 xl:pt-5 2xl:pt-6 mb-12 lg:mb-0;
 }
 .logoContainer {
 	@apply w-full;
