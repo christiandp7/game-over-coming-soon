@@ -30,7 +30,7 @@
 }
 .socialItem {
 	&:not(:first-child) {
-		@apply ml-7;
+		@apply ml-5;
 	}
 }
 .socialButton {
@@ -39,11 +39,17 @@
 	@apply text-white text-3xl;
 	@apply border-2 border-solid;
 	@apply transition-colors duration-200 ease-in-out;
-	@apply shadow-2xl;
+	@apply shadow-xl;
 }
 .fb {
 	@apply bg-fb border-fb-accent hover:bg-fb-accent;
 }
 .wapp {
 	@apply bg-wapp border-wapp-accent hover:bg-wapp-accent;
+}
+.yt {
+	@apply bg-red-600 border-red-700 hover:bg-red-700;
+}
+.mail {
+	@apply bg-yellow-300 border-yellow-400 hover:bg-yellow-400;
 }
