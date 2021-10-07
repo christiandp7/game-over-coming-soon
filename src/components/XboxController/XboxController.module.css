@@ -10,8 +10,8 @@
 } */
 .root {
 	@apply hidden lg:flex justify-center items-end w-full;
-	@apply h-[100px] lg:h-[130px] xl:h-[150px] 2xl:h-[180px];
-	@apply mt-2 lg:mt-3 xl:mt-4 2xl:mt-5;
+	@apply h-[100px] lg:h-[110px] xl:h-[125px] 2xl:h-[180px];
+	@apply mt-2 lg:mt-2 xl:mt-4 2xl:mt-5;
 }
 
 .controllerContainer {
@@ -20,10 +20,10 @@
 	transform: scale(0.3);
 
 	@screen lg {
-		transform: scale(0.35);
+		transform: scale(0.3);
 	}
 	@screen xl {
-		transform: scale(0.4);
+		transform: scale(0.35);
 	}
 	@screen 2xl {
 		transform: scale(0.45);

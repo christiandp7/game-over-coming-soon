@@ -10,18 +10,18 @@
 }
 
 .hero {
-	@apply w-full max-w-5xl px-3 pt-6 mb-12 lg:mb-0;
+	@apply w-full max-w-5xl px-3 pt-5 2xl:pt-6 mb-12 lg:mb-0;
 }
 .logoContainer {
 	@apply w-full;
 	@apply flex justify-center items-center;
 }
 .logo {
-	@apply max-w-[220px] xl:max-w-[260px] 2xl:max-w-[300px];
+	@apply max-w-[220px] xl:max-w-[220px] 2xl:max-w-[300px];
 }
 
 .comingSoonWrapper {
-	@apply max-w-xs sm:max-w-md md:max-w-lg lg:max-w-3xl xl:max-w-4xl mx-auto;
+	@apply max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-2xl 2xl:max-w-4xl mx-auto;
 }
 
 .social {
